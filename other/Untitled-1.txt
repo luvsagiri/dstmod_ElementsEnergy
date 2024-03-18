@@ -1,0 +1,44 @@
+return {
+  ["workshop-1754389029"]={
+    configuration_options={
+      always_show_ui=false,
+      auto_balancing=false,
+      default_galleryful=0,
+      force_population=false,
+      gift_toasts_offset=100,
+      ignore_sinkholes=false,
+      migration_postern=false,
+      migrator_required=false,
+      name_button=true,
+      no_bat=true,
+      open_button=true,
+      say_dest=true,
+      world_config={
+        ["1"] = {
+            name = "桃花月",
+            note = "朔风吹散三更雪，倩魂犹恋桃花月。",
+            category = "世界1"
+        },
+        ["2"] = {
+            name = "好梦",
+            note = "梦好莫催醒，由他好处行。",
+            is_cave = true,
+            category = "世界1"
+        },
+        ["3"] = {
+            name = "枕畔",
+            note = "无端听画角，枕畔红冰薄。",
+            category = "世界2"
+        },
+        ["4"] = {
+            name = "残星",
+            note = "塞马一声嘶，残星拂大旗。",
+            is_cave = true,
+            category = "世界2"
+        }
+    },
+      world_prompt=false 
+    },
+    enabled=true 
+  } 
+}

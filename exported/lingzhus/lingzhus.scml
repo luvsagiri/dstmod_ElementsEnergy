@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="b5">
+    <folder id="0" name="lingzhus">
+        <file id="0" name="lingzhus/lingzhu_jin.png" width="64" height="64" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="lingzhus/lingzhu_mu.png" width="64" height="64" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="lingzhus/lingzhu_shui.png" width="64" height="64" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="lingzhus/lingzhu_huo.png" width="64" height="64" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="lingzhus/lingzhu_tu.png" width="64" height="64" pivot_x="0.5" pivot_y="0.5"/>
+    </folder>
+    <entity id="0" name="lingzhu_jin">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="lingzhu_jin" folder="0" file="0" abs_x="0" abs_y="0" abs_pivot_x="0.5" abs_pivot_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lingzhu_jin">
+                <key id="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object folder="0" file="0" y="20" angle="90"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="0" angle="180"/>
+                </key>
+                <key id="3" time="750">
+                    <object folder="0" file="0" y="20" angle="270"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="lingzhu_mu">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="lingzhu_jin" folder="0" file="1" abs_x="0" abs_y="0" abs_pivot_x="0.5" abs_pivot_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lingzhu_jin">
+                <key id="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object folder="0" file="1" y="20" angle="90"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="1" angle="180"/>
+                </key>
+                <key id="3" time="750">
+                    <object folder="0" file="1" y="20" angle="270"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="1" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="2" name="lingzhu_shui">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="lingzhu_shui" folder="0" file="2" abs_x="0" abs_y="0" abs_pivot_x="0.5" abs_pivot_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lingzhu_shui">
+                <key id="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object folder="0" file="2" y="20" angle="90"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="2" angle="180"/>
+                </key>
+                <key id="3" time="750">
+                    <object folder="0" file="2" y="20" angle="270"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="3" name="lingzhu_huo">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="lingzhu_huo" folder="0" file="3" abs_x="0" abs_y="0" abs_pivot_x="0.5" abs_pivot_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lingzhu_huo">
+                <key id="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object folder="0" file="3" y="20" angle="90"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="3" angle="180"/>
+                </key>
+                <key id="3" time="750">
+                    <object folder="0" file="3" y="20" angle="270"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="4" name="lingzhu_tu">
+        <animation id="0" name="idle" length="1000">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="lingzhu_tu" folder="0" file="4" abs_x="0" abs_y="0" abs_pivot_x="0.5" abs_pivot_y="0" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="500">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="750">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="1000">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="lingzhu_tu">
+                <key id="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+                <key id="1" time="250">
+                    <object folder="0" file="3" y="20" angle="90"/>
+                </key>
+                <key id="2" time="500">
+                    <object folder="0" file="3" angle="180"/>
+                </key>
+                <key id="3" time="750">
+                    <object folder="0" file="3" y="20" angle="270"/>
+                </key>
+                <key id="4" time="1000" spin="0">
+                    <object folder="0" file="3" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
