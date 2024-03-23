@@ -1,7 +1,1 @@
-<Atlas>
-    <Texture filename="spiritual_pearl_inv.tex" />
-    <Elements>
-        <Element name="spiritual_pearl_inv.tex" u1="0.0078125" u2="0.9921875" v1="0.0078125"
-            v2="0.9921875" />
-    </Elements>
-</Atlas>
+<Atlas><Texture filename="lingzhu_inv.tex" /><Elements><Element name="lingzhu_inv.tex" u1="0.0078125" u2="0.9921875" v1="0.0078125" v2="0.9921875" /></Elements></Atlas>
